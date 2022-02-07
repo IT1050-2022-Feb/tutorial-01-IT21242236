@@ -13,7 +13,23 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  int n,sum;
+  printf("Enter the number- ");
+  scanf("%d", &n);
+ while(n >= 100)
+  {
+    n++;
+    sum;
+    
+  }
+  while( n <=1)
+  {
+    n++;
+    sum;
   
+  }
+
+  printf("sum is %d", sum);
   return 0;
 }
 
